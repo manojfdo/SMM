@@ -1,13 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Main.dwt.php" codeOutsideHTMLIsLocked="false" -->
 <head>
 <base href="http://localhost/SMM/img/" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- TemplateBeginEditable name="doctitle" -->
+<!-- InstanceBeginEditable name="doctitle" -->
 <title>Untitled Document</title>
-<!-- TemplateEndEditable -->
-<!-- TemplateBeginEditable name="head" -->
-<!-- TemplateEndEditable -->
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
 
 <script type="text/javascript">
 function MM_swapImgRestore() { //v3.0
@@ -64,7 +64,7 @@ function MM_swapImage() { //v3.0
     <td colspan="2"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
         <td width="50%">&nbsp;</td>
-        <td width="800"><!-- TemplateBeginEditable name="Body" -->Body have to be not more than 800px<!-- TemplateEndEditable --></td>
+        <td width="800"><!-- InstanceBeginEditable name="Body" -->Welcome To Sell My Mobile Template Testing page..<!-- InstanceEndEditable --></td>
         <td width="50%">&nbsp;</td>
       </tr>
       <tr>
@@ -82,4 +82,4 @@ function MM_swapImage() { //v3.0
   </tr>
 </table>
 </body>
-</html>
+<!-- InstanceEnd --></html>
