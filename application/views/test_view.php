@@ -109,7 +109,7 @@ function MM_swapImage() { //v3.0
   <tr>
     <td width="57%" rowspan="3" ><table width="400" border="0" align="left" cellpadding="0" cellspacing="0">
       <tr>
-        <td><img src="sell_my_mobile_logo.png" width="379" height="80" /></td>
+        <td>&nbsp;&nbsp;&nbsp;<img src="sell_my_mobile_logo.png" width="379" height="80" /></td>
       </tr>
     </table></td>
     <td width="43%" >&nbsp;</td>
