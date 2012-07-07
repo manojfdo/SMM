@@ -10,15 +10,14 @@
 <!-- InstanceEndEditable -->
 
 <script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
 function MM_preloadImages() { //v3.0
   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
 }
-
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
 function MM_findObj(n, d) { //v4.01
   var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
     d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
@@ -32,28 +31,95 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 </script>
+<link rel="stylesheet" href="http://localhost/SMM/css/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://localhost/SMM/css/slide.css" type="text/css" media="screen" />
+<!-- jQuery - the core -->
+	<script src="http://localhost/SMM/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+	<!-- Sliding effect -->
+	<script src="http://localhost/SMM/js/slide.js" type="text/javascript"></script>
 </head>
 
 <body style="margin:0; padding:0;" onload="MM_preloadImages('home_over.png','classifieds_over.png','myaccount_over.png')">
+<!-- Panel -->
+<div id="toppanel">
+	<div id="panel">
+		<div class="content clearfix">
+			<div class="left">
+				<h1>Welcome to SellmyMobile</h1>
+				<h2>Best place for your old mobile</h2>		
+				<p class="grey">Place your Mobile Classified Ad here for free of charge.</p>
+				<h2>Classifieds Dedicaded For Mobiles</h2>
+				<p class="grey">A unique design &amp; details that support needs of second hand mobile market, in Sri Lanka. </p>
+			</div>
+			<div class="left">
+				<!-- Login Form -->
+				<form class="clearfix" action="#" method="post">
+					<h1>Member Login</h1>
+					<label class="grey" for="log">Username:</label>
+					<input class="field" type="text" name="log" id="log" value="" size="23" />
+					<label class="grey" for="pwd">Password:</label>
+					<input class="field" type="password" name="pwd" id="pwd" size="23" />
+	            	<label><input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" /> &nbsp;Remember me</label>
+        			<div class="clear"></div>
+					<input type="submit" name="submit" value="Login" class="bt_login" />
+					<a class="lost-pwd" href="#">Lost your password?</a>
+				</form>
+			</div>
+			<div class="left right">			
+				<!-- Register Form -->
+				<form action="#" method="post">
+					<h1>Not a member yet? Sign Up!</h1>				
+					<label class="grey" for="signup">Username:</label>
+					<input class="field" type="text" name="signup" id="signup" value="" size="23" />
+					<label class="grey" for="email">Email:</label>
+					<input class="field" type="text" name="email" id="email" size="23" />
+					<label>A password will be e-mailed to you.</label>
+					<input type="submit" name="submit" value="Register" class="bt_register" />
+				</form>
+			</div>
+		</div>
+</div> <!-- /login -->	
+
+	<!-- The tab on top -->	
+	<div class="tab">
+		<ul class="login">
+			<li class="left">&nbsp;</li>
+			<li>Hello Guest!</li>
+			<li class="sep">|</li>
+			<li id="toggle">
+			  <a id="open" class="open" href="http://localhost/SMM/#">Log In | Register</a>
+			  <a id="close" style="display: none;" class="close" href="http://localhost/SMM/#">Close Panel</a>			
+			</li>
+			<li class="right">&nbsp;</li>
+		</ul> 
+	</div> <!-- / top -->
+	
+</div> <!--panel -->
+
+
+
 <table width="100%" border="0" align="center" cellpadding="1" cellspacing="0">
   <tr>  </tr>
 </table>
 <span style="text-align: center"></span>
 <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td colspan="2" align="center"><img src="top_border.png" width="100%" height="14" /></td>
+    <td height="30" colspan="2" align="center"><img src="top_border.png" width="100%" height="14" /></td>
   </tr>
   <tr>
-    <td width="57%" rowspan="2" ><table width="400" border="0" align="left" cellpadding="0" cellspacing="0">
+    <td width="57%" rowspan="3" ><table width="400" border="0" align="left" cellpadding="0" cellspacing="0">
       <tr>
         <td><img src="sell_my_mobile_logo.png" width="379" height="80" /></td>
       </tr>
     </table></td>
-    <td width="43%" ><table width="400" border="0" align="right" cellpadding="0" cellspacing="0">
+    <td width="43%" >&nbsp;</td>
+  </tr>
+  <tr>
+    <td ><table width="400" border="0" align="right" cellpadding="0" cellspacing="0">
       <tr>
-        <td width="100"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('home_navi','','home_over.png',1)"><img src="home_normal.png" name="home_navi" width="100" height="30" border="0" id="home_navi" /></a></td>
-        <td width="155"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('class_navi','','classifieds_over.png',1)"><img src="classifieds_normal.png" name="class_navi" width="174" height="32" border="0" id="class_navi" /></a></td>
-        <td width="145"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('myaccoubt_navi','','myaccount_over.png',1)"><img src="myaccount_normal.png" name="myaccoubt_navi" width="173" height="32" border="0" id="myaccoubt_navi" /></a></td>
+        <td width="100"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('home_navi','','home_over.png',1)"><img src="home_normal.png" alt="" name="home_navi" width="100" height="30" border="0" id="home_navi" /></a></td>
+        <td width="155"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('class_navi','','classifieds_over.png',1)"><img src="classifieds_normal.png" alt="" name="class_navi" width="174" height="32" border="0" id="class_navi" /></a></td>
+        <td width="145"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('myaccoubt_navi','','myaccount_over.png',1)"><img src="myaccount_normal.png" alt="" name="myaccoubt_navi" width="173" height="32" border="0" id="myaccoubt_navi" /></a></td>
       </tr>
     </table></td>
   </tr>
