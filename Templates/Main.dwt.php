@@ -139,10 +139,10 @@ function MM_swapImage() { //v3.0
         <td bgcolor="#CCCCCC"><img src="footer_line.png" alt="" width="100%" height="5" hspace="0" vspace="0" /></td>
       </tr>
       <tr>
-        <td bgcolor="#CCCCCC">&nbsp;</td>
-        <td width="800" bgcolor="#CCCCCC"  align="center"><p style="font-weight:bold">Sell My Mobile<br />
+        <td bgcolor="#272727">&nbsp;</td>
+        <td width="800" bgcolor="#272727"  align="center"><p style="font-weight:bold; color:#FFF">Sell My Mobile<br />
           National Institute Of Busniness Management - Higher Diploma In Computer Based Information Systems 11.1</p></td>
-        <td bgcolor="#CCCCCC">&nbsp;</td>
+        <td bgcolor="#272727">&nbsp;</td>
       </tr>
     </table></td>
   </tr>
