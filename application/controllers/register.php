@@ -3,7 +3,7 @@
 class Register extends CI_Controller {
 	
 	public function index(){
-		echo "Register view goes here";
+		$this->load->view('register_view'); //loading the register_view page
 	}
 	
 	public function reg(){

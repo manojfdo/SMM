@@ -67,7 +67,7 @@ function MM_swapImage() { //v3.0
 			</div>
 			<div class="left right">			
 				<!-- Register Form -->
-				<form action="#" method="post">
+				<form action="<?php base_url()?>/register" method="post">
 					<h1>Not a member yet? Sign Up!</h1>				
 					<label class="grey" for="signup">Username:</label>
 					<input class="field" type="text" name="signup" id="signup" value="" size="23" />
